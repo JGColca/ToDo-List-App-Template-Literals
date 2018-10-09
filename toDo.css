@@ -1,0 +1,61 @@
+
+
+#pendingTasksList {
+  list-style: none;
+}
+
+#completedTasksList {
+  list-style: none;
+}
+
+#addTaskButton {
+  
+  background-color: lightgray;
+  color: blue;
+
+}
+
+#taskNameTextBox {
+  background-color: whitesmoke;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  border: 2px solid blue;
+  border-radius: 4px;
+}
+
+#taskNameTextBox:focus {
+  background-color: lightblue;
+  border-color: black;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.tasks {
+    display: flex;
+ 
+}
+
+#pendingTasksList {
+    background-color: lightcoral;
+    width: auto;
+    height: 200px;
+    padding-inline-start: 0px;
+    overflow: scroll;
+}
+
+#completedTasksList {
+    background-color: lightgreen;
+    width: auto;
+    height: 200px;
+    padding-inline-start: 0px;
+    overflow: scroll;
+}
+
+.taskListItem {
+  display: flex;
+  justify-content: left;
+}
